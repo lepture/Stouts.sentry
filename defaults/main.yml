@@ -19,6 +19,7 @@ sentry_python: python2.7                                  # In the case of multi
 
 sentry_ssl_certificate:                                   # SSL certificate file - also turns on HTTPS on Nginx
 sentry_ssl_certificate_key:                               # Key file for SSL cert
+sentry_ssl_force: False                                   # enable HSTS and redirect to https version
 
 sentry_config_additional: []                              # List of additional options
 
