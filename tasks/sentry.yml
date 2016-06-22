@@ -28,7 +28,7 @@
   sudo_user: "{{sentry_user}}"
 
 - name: Install Sentry
-  pip: name=sentry executable={{sentry_home}}/env/bin/pip version={{sentry_version}}  virtualenv="{{sentry_home}}"/env
+  pip: name=sentry executable={{sentry_home}}/env/bin/pip version={{sentry_version}}
   sudo: yes
   sudo_user: "{{sentry_user}}"
   notify: [sentry restart]
