@@ -11,7 +11,6 @@ sentry_port: 80
 sentry_url_prefix: "http://{{sentry_hostname}}"
 sentry_secret_key: 1LsmGR1DIyCJ5n2bRG5IVOFHdzEPkTKlW0RzxZVe9S0vc
 sentry_extensions: []                                     # List of sentry-extensions
-sentry_single_organization: yes
 
 # Python configuration
 sentry_python: python2.7                                  # In the case of multiple Python  installations
